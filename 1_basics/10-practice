@@ -1,0 +1,46 @@
+// task 1
+// let student={
+//     name:"Ali",
+//     phoneNumber:"0347-3833965",
+//     marks:80
+
+// }
+// console.log(student)
+// student.name="kashif"
+// console.log(student)
+// for(let key in student){
+//     console.log(key)
+// }
+
+// task 2
+// String addition + method
+let num1="30"
+let num2=20
+// let sum=num1+num2        //the work of + is concetenate and addition when it seen + before or after string it will concate
+// console.log(sum)          // then if number then it perform addition but it always follow precedent first 
+
+// console.log(num1+num2+20);     // when same operator same presendent it start from left son "30"+20= 3020   then 20 it become answer 302020
+// console.log(num2+20+num1);       //4030
+// console.log(num1+num2*2);        //30 same first 20*2=40    ans 3040
+
+// Note= only + operator can not change the typepf its value into number but remaining all -,*,/,/ and many also compresional operator change datatype into number
+ 
+
+// i always confuse ke main type kese use karon (typeof varible) or (typeof (varible)) there show perfect Worker
+// console.log(typeof num1+num2)    //string20 last ko as concatenate kiya 
+// console.log(typeof (num1+num2))
+
+
+// task 4
+const myOb={
+    name:"ali",
+    age:20
+}
+console.log(myOb)
+// myOb={};  //error const never reassign 
+// myOb=20;
+// it mean we never change it const varible value it now relationship with it never change other not allow
+// but his valuse inside object own change update his value
+myOb.age=25;   //change value
+myOb.idf=94;    // add new key
+console.log(myOb)
